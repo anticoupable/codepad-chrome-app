@@ -1,50 +1,36 @@
-# CodePad - A Chrome OS multi-language text editor
+# CodePad
 
 ![gghBeJ/codepad.jpg](https://image.ibb.co/gghBeJ/codepad.jpg)
 
 ## Note
 
-Code Pad IDE is a free and lightweight IDE/text editor built for Chrome operating system. Code Pad allows you to write code and build projects in an easy way right on your Chrome OS device.
+CodePad est un IDE / éditeur de code léger et gratuit conçu pour ChromeOS. CodePad vous permet d'écrire du code et de faire des projets sur votre appareil ChromeOS. CodePad supporte beaucoup de languages.
 
-The IDE supports a variety of different languages!
+**PS** Vous pouvez aussi utiliser CodePad en tant qu'éditeur de texte classique.
 
-**P.S.** You can also use it as a simple text editor, if that's all you need _(duh)_...
-
-## Currently supported languages
+## Languages supportés
 Bash, C/C++, CoffeeScript, CSS3, Dockerfile, GitIgnore, GoLang, HTML5, Java, JavaScript, JSON, Less, Markdown, MS SQL, Perl, PHP, PHTML, Plain text, Python, Ruby, Rust, Sass, Scala, SQL, TypeScript, XML, XHTML.
 
-## Features
- - Full project browsing & management
- - Over 20 familiar themes _(Monokai, etc...)_
- - Choice of crisp monospaced editor fonts
- - Ready-made code snippets
- - Syntax error & bug detection/alerts
- - Syntax highlighting
- - Code auto-completion & hinting
- - Code folding
- - Works with Google Drive or Local storage
- - Centralized clipboard with ChromeOS
- - Automatic indent and outdent
- - Tweakable interface
- - Key bindings
- - Drag & drop files with your mouse
- - Toggle between soft tabs & real tabs
- - Line wrapping
- - Runs in fullscreen
- - Cut, copy & paste functionality
+## Fonctionnalités
+ - Plus de 20 thèmes familliers _(Monokai, etc...)_
+ - Détéction des erreurs de syntaxes
+ - Pliage du code
+ - Indentation automatique
+ - Glisser / déposer des fichiers
+ - Word Wrapping
 
 ## Installation
 
-**Chromebook**
+**ChromeOS**
 
-The Code Pad IDE can be installed directly from the Chrome store here: 
+CodePad peut être installé directement depuis le Chrome Web Store : 
 https://chrome.google.com/webstore/detail/code-pad-ide/adaepfiocmagdimjecpifghcgfjlfmkh
 
-**Other devices**
+**Autres appareils**
 
-Alternatively, if you're not running a Chrome OS device just follow these steps:
+Alternativement, Si votre appareil n'est pas sous ChromeOS vous pouvez suivre ces étapes pour installer CodePad : 
                                               
-  - Clone/download this repo to your local machine
-  - Open Google Chrome browser
-  - Enter [chrome://extensions](chrome://extensions) in the URL bar and enable Developer Mode.
-  - While still on the extensions page, click the button marked `Load unpacked extension...` and select the directory containing the Code Pad manifest.json file.
+  - Télécharger ce projet github sur votre ordinateur.
+  - (Installez et) ouvrez Google Chrome sur votre ordinateur.
+  - Entrer [chrome://extensions](chrome://extensions) dans la barre d'URL et activer le mode développeur.
+  - Pendant que vous êtes sur cette page, Appuyer sur le bouton `Charger l'extension non empaquetée` et choissiser le dossier contenant le fichier manifest.json de CodePad.
