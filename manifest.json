@@ -2,11 +2,10 @@
   "version": "1.0.96",
   "manifest_version": 2,
   "minimum_chrome_version": "51",
-  "name": "Code Pad Text Editor",
-  "short_name": "Code Pad Text Editor",
+  "name": "CodePad Edited",
+  "short_name": "CodePad Edited",
   "description": "An multi-language code text-editor crafted for the Chrome OS. Completely free to use and to modify under the GPL!",
   "author": "Andrew Borg",
-  "homepage_url": "https://github.com/andrewbrg/codepad-chrome-app",
   "offline_enabled": true,
   "app": {
     "background": {
