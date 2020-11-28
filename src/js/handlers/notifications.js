@@ -25,8 +25,8 @@ let NotificationsHandler = function () {
                 chrome.notifications.create(that.versionUpdateId, {
                     type: 'basic',
                     iconUrl: '/src/img/codepad.128.png',
-                    title: 'Code Pad IDE updated',
-                    message: 'Your installation of Code Pad has been updated to v' + currentVer
+                    title: 'Mise à jour de CodePad',
+                    message: 'CodePad a été mis à jour vers la version ' + currentVer
                 }, function () {
 
                     if (chrome.runtime.lastError) {
@@ -45,27 +45,7 @@ let NotificationsHandler = function () {
 
                 requested = requested[that.requestRateKey] || false;
 
-                if (!requested) {
-                    chrome.notifications.create(that.ratingReminderId, {
-                        type: 'basic',
-                        iconUrl: '/src/img/codepad.128.png',
-                        title: 'Do you like Code Pad?',
-                        message: 'Please leave a rating on the Chrome Store, it helps the application grow :)',
-                        requireInteraction: true,
-                        isClickable: true,
-                        buttons: [{
-                            title: 'Click to give your rating'
-                        }]
-                    }, function () {
-                        if (chrome.runtime.lastError) {
-                            console.info(chrome.runtime.lastError.message);
-                        }
-
-                        let obj = {};
-                        obj[that.requestRateKey] = true;
-                        chrome.storage.local.set(obj);
-                    });
-                }
+                
             });
         }, 3000);
 
