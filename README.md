@@ -21,14 +21,7 @@ Bash, C/C++, CoffeeScript, CSS3, Dockerfile, GitIgnore, GoLang, HTML5, Java, Jav
 
 ## Installation
 
-**ChromeOS**
-
-CodePad peut être installé directement depuis le Chrome Web Store : 
-https://chrome.google.com/webstore/detail/code-pad-ide/adaepfiocmagdimjecpifghcgfjlfmkh
-
-**Autres appareils**
-
-Alternativement, Si votre appareil n'est pas sous ChromeOS vous pouvez suivre ces étapes pour installer CodePad : 
+Suivez ces étapes pour installer CodePad : 
                                               
   - Télécharger ce projet github sur votre ordinateur.
   - (Installez et) ouvrez Google Chrome sur votre ordinateur.
